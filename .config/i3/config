@@ -195,3 +195,6 @@ bar {
 
 # Start Nitrogen
 exec --no-startup-id nitrogen --restore
+
+# Picom
+exec_always --no-startup-id picom & 
